@@ -25,27 +25,6 @@ document.getElementById('d_button').addEventListener('click', function () {
      
 })
 
-document.getElementById("W_button").addEventListener('click', function () {
-
-    const finalwithdraw = document.getElementById("widthdraw field");
-    const withdraw = finalwithdraw.value;
-    const newithdraw=parseFloat(withdraw)
-
-    const totalwithdraw=document.getElementById('totalwhithdraw');
-    const totalwhithdraw=totalwithdraw.innerText;
-    const newwhithdraw=parseFloat(totalwhithdraw);
-
-    const totalaccounte=document.getElementById('totalamoute');
-    const Previusaccount=totalaccounte.innerText;
-    const newaccount=parseFloat(Previusaccount)
-
-    TotalW= newithdraw+newwhithdraw
-    TotalA= newaccount-newwhithdraw;
-
-    totalwithdraw.innerText= TotalW;
-    totalaccounte.innerText= TotalA
-    finalwithdraw.value='';
-})
 
 //console.log( TotalW);
 
